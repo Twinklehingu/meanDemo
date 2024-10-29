@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-video-center',
+  selector: 'video-center',
   templateUrl: './video-center.component.html',
   styleUrls: ['./video-center.component.css']
 })
