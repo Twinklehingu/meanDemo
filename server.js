@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'dist')))
 
 //locahost:3000/api
-// app.use('/api', api);
+app.use('/api', api);
 
 //localhost:3000
 app.get("*", (req, res)=>{
